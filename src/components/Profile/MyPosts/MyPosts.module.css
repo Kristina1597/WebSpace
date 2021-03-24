@@ -1,0 +1,100 @@
+
+.myPosts_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.myPosts_blockWithForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.newPostForm {
+    /*background-color: white;*/
+    /*border-radius: 5px;*/
+    /*border-bottom: 1px solid #9c9c9c;*/
+    /*border-left: 1px solid #9c9c9c;*/
+    /*border-right: 1px solid #9c9c9c;*/
+}
+
+.blockWithButtonForNewPostForm {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.buttonForNewPostForm {
+    font-family: Raleway;
+    font-weight: bold;
+    width: 245px;
+    height: 45px;
+    padding: 5px 15px;
+    margin: 5px 0 5px 5px;
+    color: white;
+    background-color:#396375;
+    border-radius: 5px;
+    transition: background-color,cursor,font-weight .1s linear;
+    border: none;
+}
+
+.buttonForNewPostForm:hover,
+.buttonForNewPostForm:active,
+.buttonForNewPostForm:focus {
+    border: none;
+    outline: none;
+    background-color: #2e4a5c;
+    cursor: pointer;
+}
+
+.myPosts_blockWithCounter {
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 725px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.myPosts_blockWithCounter_posts,
+.myPosts_blockWithCounter_likes{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+    text-align: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 105.5%;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.myPosts_blockWithCounter_likes {
+
+}
+
+.myPosts_blockWithPosts {
+    width: 100%;
+    max-width: 725px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}

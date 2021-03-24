@@ -1,0 +1,157 @@
+
+
+/*-------------------------------------------------*/
+
+.users_page {
+
+    display: flex;
+    justify-content: center;
+}
+
+.users_wrapper {
+    min-height: 870px;
+    margin: 15px 0;
+    width: 100%;
+    max-width: 960px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.users_counter {
+    margin: 15px 15px 15px 60px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 138%;
+    letter-spacing: 0.015em;
+    color: #1A3540;
+}
+
+.users_blockWithUsers {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*----User----*/
+
+.user_item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 22%;
+}
+
+.user_blockWithPhoto {
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 10px;
+}
+
+.user_avatar {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.user_blockWithInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.user_name {
+    text-align: center;
+    align-items: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 138%;
+    letter-spacing: 0.015em;
+    color: #396375;
+}
+
+.user_blockWithButton {
+    width: 100%;
+    max-width: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.user_unfollowButton,
+.user_followButton{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 138%;
+    letter-spacing: 0.015em;
+    transition: background-color .1s linear;
+    color: #FFFFFF;
+}
+
+.user_followButton {
+    background-color: #396375;
+}
+
+.user_unfollowButton {
+    background-color: #D70000;
+}
+
+.user_unfollowButton:active,
+.user_unfollowButton:hover,
+.user_unfollowButton:disabled,
+.user_unfollowButton:focus {
+    cursor: pointer;
+    background-color: #b90000;
+}
+
+.user_followButton:active,
+.user_followButton:hover,
+.user_followButton:disabled,
+.user_followButton:focus {
+    cursor: pointer;
+    background-color: #315163;
+}
+
+.users_paginator {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+

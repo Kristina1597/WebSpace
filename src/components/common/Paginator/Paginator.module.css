@@ -1,0 +1,86 @@
+
+.paginator {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 750px;
+    height: 100%;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.pageNumber {
+    /*margin-right: 2px;*/
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-right: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #396375;
+    border-radius: 5px;
+}
+
+.pageNumber:last-child {
+    margin-right: 0;
+}
+
+.selectedPage {
+    color: #FFFFFF;
+    background-color: #396375;
+    cursor: pointer;
+
+}
+
+.pageNumber:hover {
+    cursor: pointer;
+    background-color: #cecfcd;
+}
+
+.pageNumber.selected {
+    color: #FFFFFF;
+}
+
+.button_previous,
+.button_next {
+    margin: 0 15px;
+    width: 85px;
+    height: 30px;
+    background-color: #396375;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 138%;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+
+.button_previous:hover,
+.button_previous:focus,
+.button_next:hover,
+.button_next:focus {
+    background-color: #315163;
+    cursor: pointer;
+
+}

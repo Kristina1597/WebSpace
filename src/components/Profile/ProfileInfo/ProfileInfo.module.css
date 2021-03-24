@@ -1,0 +1,128 @@
+.withPreloader {
+    width: 100%;
+    background-color: #e5e5e5;
+}
+
+.profileInfo_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profileInfo_blockWithPhoto {
+    margin: 35px 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profileInfo_mainPhoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.profileInfo_inputForMainPhoto {
+    width: 200px;
+    height: 21px;
+    color: transparent;
+    background-color: transparent;
+}
+
+.profileInfo_blockWithInfo {
+    padding: 20px 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius: 5px;
+    max-width: 370px;
+    width: 100%;
+}
+
+.profileData_Info {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 105.5%;
+    letter-spacing: -0.01em;
+
+    color: #2B4956;
+}
+
+.profileData_status {
+    padding: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 105.5%;
+    letter-spacing: -0.01em;
+    color: #bababa;
+    text-align: center;
+}
+
+.profileData_fullName {
+    padding: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 95.5%;
+    letter-spacing: 0.08em;
+
+    color: #000000;
+}
+
+.profileData_items {
+    padding: 5px 0;
+    width: 100%;
+    line-height: 105.5%;
+    letter-spacing: -0.01em;
+    resize: none;
+
+}
+
+.profileData_contacts {
+    resize: none;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    line-height: 105.5%;
+}
+
+.profileData_blockWithButton {
+
+}
+
+.profileData_button {
+    margin-top: 5px;
+    font-family: Raleway;
+    font-weight: bold;
+    padding: 5px 15px;
+    color:  #2B4956;
+    border: none;
+    background-color: #bababa;
+    border-radius: 5px;
+    transition: background-color,cursor,font-weight .1s linear;
+}
+
+.profileData_button:hover,
+.profileData_button:focus,
+.profileData_button:active {
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #9c9c9c;
+    cursor: pointer;
+}
+
+
+

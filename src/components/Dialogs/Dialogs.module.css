@@ -1,0 +1,110 @@
+.dialogs_wrapper {
+    background-color: #e5e5e5;
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+
+}
+
+.dialogsItems {
+    width: 33%;
+    margin-right: 75px;
+    max-width: 370px;
+
+    height: 80px;
+    background-color: #d4d4d4;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    align-content: center;
+    text-align: center;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 138%;
+    letter-spacing: 0.015em;
+    transition: background-color .1s linear;
+
+    color: #000000;
+}
+
+.dialogsItems:hover {
+    background-color: #c5c5c5;
+    cursor: pointer;
+}
+
+.dialogsPhoto {
+    margin: 0 20px;
+}
+
+.messages {
+    margin-bottom: 55px;
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-content: center;
+    text-align: right;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.messages_dialogName {
+
+}
+
+.messages_header {
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: flex-end;
+
+    align-items: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 138%;
+    letter-spacing: 0.015em;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.messages_dialogName {
+    margin: 0 auto;
+}
+
+.dialogPhoto {
+    margin: 10px 10px 10px 0;
+}
+
+.text_container {
+
+     display: flex;
+     justify-content: flex-end;
+ }
+
+.text {
+    margin: 0 15px 15px 15px;
+    background-color: #ebebeb;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 360px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: end;
+    text-align: end;
+}

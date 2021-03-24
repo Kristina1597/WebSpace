@@ -1,0 +1,26 @@
+.profile_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.profile_wrapper:hover {
+    cursor: default;
+}
+
+.profile_info {
+    margin-left: 130px;
+    margin-right: 75px;
+    width: 33%;
+    max-width: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile_posts {
+    width: 66%;
+    display: flex;
+    max-width: 725px;
+    margin-top: 35px;
+}
